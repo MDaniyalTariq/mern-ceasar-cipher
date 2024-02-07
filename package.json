@@ -1,0 +1,22 @@
+{
+  "name": "mern-ceasar-cipher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.3",
+    "@mui/icons-material": "^5.15.7",
+    "@mui/material": "^5.15.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react-router-dom": "^5.3.4"
+  }
+}

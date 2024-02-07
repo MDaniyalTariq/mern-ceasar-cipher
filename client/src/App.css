@@ -1,0 +1,23 @@
+.typewriter-text {
+  color: black;
+  display: flex;
+  overflow: hidden;
+  border-right: 1px solid white;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 4px;
+  animation: typing 5s steps(40, end);
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 20%; }
+}
+
+
+@media (max-width: 1200px) {
+  .typewriter-text {
+    display: none;
+  }
+}
